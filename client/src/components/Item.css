@@ -1,0 +1,60 @@
+
+
+  .todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .todo {
+    background: #c2f1e3;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    min-height: 100px;
+    padding: 10px;
+    word-wrap: break-word;
+    width: 300px;
+    margin: 15px;
+  }
+  
+  .todo--completed {
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    min-height: 100px;
+    padding: 10px;
+    width: 300px;
+    margin: 15px;
+    text-decoration: line-through;
+    color: black;
+    background-color: rgb(197, 186, 186);
+  }
+  
+ 
+  .todo__note {
+    font-size: 1em;
+    margin: 10px;
+  }
+  
+  .todo__button--remove {
+    float: right;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .todo__button--update {
+    float: right;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .todo__button--hide {
+    display: none;
+  }
+  
+

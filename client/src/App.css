@@ -1,0 +1,130 @@
+.header {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .header__title {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.todo-create {
+    margin: auto auto;
+  }
+  
+  .todo-create__form {
+    position: relative;
+    max-width: 400px;
+    height: 150px;
+    margin: 50px auto 20px auto;
+    background: #ffa2a6;
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  
+  .todo-create__header {
+    padding: 5px;
+    position: absolute;
+    font-size: 0.8em;
+    left: 8px;
+    top: -12px;
+    background: white;
+    border: 1px solid #ffa2a6;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+
+  .todo-create__note {
+    width: 100%;
+    margin: 7px auto;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 1em;
+    font-family: inherit;
+    border-radius: 10px;
+  }
+  .todo-create__button {
+    position: absolute;
+    font-size: 0.8em;
+    right: 14px;
+    bottom: 10px;
+    background: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 50px;
+    height: 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+
+
+  @media only screen and (min-width: 768px) {
+  
+  
+    .todo-create__form {
+      max-width: 500px;
+      margin: 50px auto 20px auto;
+      height: 170px;
+    }
+    .todo-create__header {
+      font-size: 1em;
+    }
+    .todo-create__title,
+    .todo-create__note {
+      padding: 8px;
+      font-size: 1.1em;
+    }
+    .todo-create__button {
+      position: absolute;
+      font-size: 0.9em;
+      right: 14px;
+      bottom: 3px;
+      width: 65px;
+      height: 35px;
+      cursor: pointer;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+   
+  
+    .todo-create__form {
+      max-width: 650px;
+      margin: 50px auto 20px auto;
+      height: 200px;
+    }
+    .todo-create__header {
+      font-size: 1.2em;
+    }
+    .todo-create__title,
+    .todo-create__note {
+      padding: 8px;
+      font-size: 1.3em;
+    }
+    .todo-create__button {
+      position: absolute;
+      font-size: 1.2em;
+      right: 14px;
+      bottom: 14px;
+      width: 75px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+  
